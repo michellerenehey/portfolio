@@ -1,7 +1,7 @@
 import './App.css';
 import Layout from './views/Layout/Layout';
 import About from './views/About/About';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -9,7 +9,9 @@ export default function App() {
       <Router>
         <Layout>
           <Switch>
-            <About />
+            <Route exact path="/">
+              <About />
+            </Route>
           </Switch>
         </Layout>
       </Router>
