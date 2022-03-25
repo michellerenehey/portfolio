@@ -1,4 +1,10 @@
-body {
+body,
+html {
   margin: 0;
-  padding: 0;
+}
+.App {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
