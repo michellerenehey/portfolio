@@ -1,0 +1,11 @@
+.tech {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.tech-left,
+.tech-right {
+  display: flex;
+  flex-direction: column;
+}
