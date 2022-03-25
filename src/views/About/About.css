@@ -1,0 +1,17 @@
+.About {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  padding: 20px;
+  line-height: 2em;
+  font-size: 1.25em;
+  text-align: center;
+}
+.main-image {
+  width: 90vw;
+}

@@ -1,12 +1,12 @@
 import './App.css';
 import Layout from './views/Layout/Layout';
-import Home from './views/Home/Home';
+import About from './views/About/About';
 
 export default function App() {
   return (
     <div className="App">
       <Layout>
-        <Home />
+        <About />
       </Layout>
     </div>
   );
