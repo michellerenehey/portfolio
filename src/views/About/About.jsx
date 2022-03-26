@@ -1,11 +1,12 @@
 import './About.css';
-import image from '../../header_white.gif';
+import image1 from '../../assets/header_orange.gif';
+import image2 from '../../assets/header_blue.gif';
 
 export default function About() {
   return (
     <div className="About">
       <img
-        src={image}
+        src={image2}
         alt="Michelle Nygren shaking hands"
         className="main-image"
       />
