@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './ProjectDetail.css';
 
 export default function ProjectDetail({
@@ -13,8 +12,8 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectdetail">
-      <Link
-        to={site || code}
+      <a
+        href={site || code}
         target="_blank"
         className="projectdetail-item_image-link"
       >
@@ -23,7 +22,7 @@ export default function ProjectDetail({
           alt="project image"
           className="projectdetail-item_image"
         />
-      </Link>
+      </a>
       <h2 className="projectdetail-item_name">{name}</h2>
       <p className="projectdetail-item_tech">{tech}</p>
       <p className="projectdetail-item_description">{description}</p>
