@@ -19,23 +19,6 @@ export default function About() {
           and <strong>empathetic</strong> tech.
         </p>
       </div>
-      <div className="strengths">
-        <div className="strengths-item">
-          <p className="strengths-item_word">CURIOUS</p>
-        </div>
-        <div className="strengths-item">
-          <p className="strengths-item_word">EMPATHETIC</p>
-        </div>
-        <div className="strengths-item">
-          <p className="strengths-item_word">ADAPTABLE</p>
-        </div>
-        <div className="strengths-item">
-          <p className="strengths-item_word">DRIVEN</p>
-        </div>
-        <div className="strengths-item">
-          <p className="strengths-item_word">KIND</p>
-        </div>
-      </div>
     </div>
   );
 }

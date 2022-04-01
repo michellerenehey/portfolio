@@ -11,23 +11,9 @@
   line-height: 2em;
   font-size: 1.25em;
   text-align: center;
+  margin: 10px 10px 75px 10px;
 }
 .main-image {
   width: 90vw;
-}
-
-.strengths {
-  width: 80vw;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.strengths-item {
-  border: black solid 1px;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 50px 10px 10px 10px;
 }
