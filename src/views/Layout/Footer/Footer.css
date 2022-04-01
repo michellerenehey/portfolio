@@ -1,4 +1,6 @@
 .footer {
+  /* position: absolute;
+  bottom: 0; */
   height: 15vh;
   width: 100vw;
   display: flex;

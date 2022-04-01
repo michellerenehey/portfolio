@@ -26,6 +26,16 @@ export default function ProjectList() {
         site="https://byobee.netlify.app/"
         code="https://github.com/BYOBee-Project/BYOBee"
       />
+      <ProjectDetail
+        src={byob}
+        name="BYOB"
+        description="A dynamically rendered single-page app, utilizing Supabase storage and CRUD functionality to encourage community-building and observation in the bee-loving community. Built with an all-remote team on a 4-day sprint."
+        list1="Spearheaded component management, utilizing Miro as a team resource to stay on track during development."
+        list2="Took lead on database design, utilizing foreign-key relationships to connect database storage."
+        tech="React, Supabase, Netlify, CSS"
+        site="https://byobee.netlify.app/"
+        code="https://github.com/BYOBee-Project/BYOBee"
+      />
     </div>
   );
 }

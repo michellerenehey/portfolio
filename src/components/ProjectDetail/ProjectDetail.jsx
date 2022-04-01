@@ -13,29 +13,27 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectdetail">
-      <div className="projectdetail-item">
-        <Link to={site}>
-          <img
-            src={src}
-            alt="project image"
-            className="projectdetail-item_image"
-          />
-        </Link>
-        <h2 className="projectdetail-item_name">{name}</h2>
-        <p className="projectdetail-item_description">{description}</p>
-        <p className="projectdetail-item_tech">{tech}</p>
-        <ul className="projectdetail-item_list">
-          <li>{list1}</li>
-          <li>{list2}</li>
-        </ul>
-        <div className="projectdetail-item-links">
-          <a href={site} className="projectdetail-item_site">
-            link to deployed site
-          </a>
-          <a href={code} className="projectdetail-item_code">
-            link to code
-          </a>
-        </div>
+      <Link to={site} target="_blank" className="projectdetail-item_image-link">
+        <img
+          src={src}
+          alt="project image"
+          className="projectdetail-item_image"
+        />
+      </Link>
+      <h2 className="projectdetail-item_name">{name}</h2>
+      <p className="projectdetail-item_tech">{tech}</p>
+      <p className="projectdetail-item_description">{description}</p>
+      <ul className="projectdetail-item_list_group">
+        <li className="projectdetail-item_list">{list1}</li>
+        <li className="projectdetail-item_list">{list2}</li>
+      </ul>
+      <div className="projectdetail-item_links">
+        <a href={site} target="_blank" className="projectdetail-item_site">
+          LIVE SITE
+        </a>
+        <a href={code} target="blank" className="projectdetail-item_site">
+          CODE
+        </a>
       </div>
     </div>
   );
