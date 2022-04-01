@@ -17,9 +17,17 @@ export default function Tech() {
           <p>Express</p>
           <p>Redux</p>
         </div>
-        <div className="tech-left_databases">
+      </div>
+      <div className="tech-center">
+        <div className="tech-center_databases">
           <h3>Database</h3>
           <p>PostgreSQL</p>
+        </div>
+        <div className="tech-center_practices">
+          <h3>Dev Practices</h3>
+          <p>Pair/Mob Programming</p>
+          <p>TDD</p>
+          <p>REST API</p>
         </div>
       </div>
       <div className="tech-right">
@@ -36,12 +44,6 @@ export default function Tech() {
           <p>VSCode</p>
           <p>Heroku</p>
           <p>Netlify</p>
-        </div>
-        <div className="tech-right_practices">
-          <h3>Dev Practices</h3>
-          <p>Pair/Mob Programming</p>
-          <p>TDD</p>
-          <p>REST API</p>
         </div>
       </div>
     </div>

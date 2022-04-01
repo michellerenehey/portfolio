@@ -1,11 +1,16 @@
 .tech {
   display: flex;
-  justify-content: space-between;
-  width: 60vw;
+  justify-content: space-evenly;
+  width: 80vw;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .tech-left,
+.tech-center,
 .tech-right {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
