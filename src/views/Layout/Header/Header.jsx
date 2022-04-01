@@ -1,4 +1,5 @@
 import './Header.css';
+import resume from '../../../assets/nygrenresume.pdf';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -13,7 +14,9 @@ export default function Header() {
       <Link to="/projects" className="header-link">
         Projects
       </Link>
-      <div>resume</div>
+      <Link to={resume} target="_blank" className="header-link">
+        Resume
+      </Link>
     </div>
   );
 }
