@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './views/Layout/Layout';
 import About from './views/About/About';
 import Tech from './views/Tech/Tech';
+import ProjectList from './views/ProjectList/ProjectList';
 
 export default function App() {
   return (
@@ -15,6 +16,9 @@ export default function App() {
             </Route>
             <Route exact path="/tech">
               <Tech />
+            </Route>
+            <Route exact path="/projects">
+              <ProjectList />
             </Route>
           </Switch>
         </Layout>

@@ -12,17 +12,29 @@ export default function About() {
       />
       <div className="bio">
         <p>
-          I am a <strong>full stack software engineer</strong> who cares about{' '}
-          <strong>people</strong>. Whether creating smart and beautiful apps
-          that center on <strong>user experience</strong>, or focusing on{' '}
-          <strong>human-centered</strong> projects, I like utilizing tech to
-          create <strong>empathetic</strong> solutions.
+          I am a hyper-focused <strong>full stack software engineer</strong> who
+          is passionate about <strong>people</strong>. I create smart websites
+          that center on <strong>user experience</strong>, utilizing{' '}
+          <strong>clean code</strong> to build <strong>human-centered</strong>{' '}
+          and <strong>empathetic</strong> tech.
         </p>
-        {/* <p>
-          I have a <strong>growth mindset</strong>, and thrive in environments
-          that allow me to be <strong>curious</strong> and{' '}
-          <strong>creative</strong>.
-        </p> */}
+      </div>
+      <div className="strengths">
+        <div className="strengths-item">
+          <p className="strengths-item_word">CURIOUS</p>
+        </div>
+        <div className="strengths-item">
+          <p className="strengths-item_word">EMPATHETIC</p>
+        </div>
+        <div className="strengths-item">
+          <p className="strengths-item_word">ADAPTABLE</p>
+        </div>
+        <div className="strengths-item">
+          <p className="strengths-item_word">DRIVEN</p>
+        </div>
+        <div className="strengths-item">
+          <p className="strengths-item_word">KIND</p>
+        </div>
       </div>
     </div>
   );

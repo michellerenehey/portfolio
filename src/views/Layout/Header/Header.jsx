@@ -10,7 +10,9 @@ export default function Header() {
       <Link to="/tech" className="header-link">
         Tech Stack
       </Link>
-      <div>projects</div>
+      <Link to="/projects" className="header-link">
+        Projects
+      </Link>
       <div>resume</div>
     </div>
   );
