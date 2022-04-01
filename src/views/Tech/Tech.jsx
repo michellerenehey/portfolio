@@ -5,13 +5,13 @@ export default function Tech() {
     <div className="tech">
       <div className="tech-left">
         <div className="tech-left_languages">
-          <h3>Languages</h3>
+          <h2>Languages</h2>
           <p>JavaScript</p>
           <p>HTML5</p>
           <p>CSS3</p>
         </div>
         <div className="tech-left_environments">
-          <h3>Frameworks, Libraries</h3>
+          <h2>Frameworks, Libraries</h2>
           <p>React</p>
           <p>Node.js</p>
           <p>Express</p>
@@ -20,11 +20,11 @@ export default function Tech() {
       </div>
       <div className="tech-center">
         <div className="tech-center_databases">
-          <h3>Database</h3>
+          <h2>Database</h2>
           <p>PostgreSQL</p>
         </div>
         <div className="tech-center_practices">
-          <h3>Dev Practices</h3>
+          <h2>Dev Practices</h2>
           <p>Pair/Mob Programming</p>
           <p>TDD</p>
           <p>REST API</p>
@@ -32,12 +32,12 @@ export default function Tech() {
       </div>
       <div className="tech-right">
         <div className="tech-right_testing-suites">
-          <h3>Testing Suites</h3>
+          <h2>Testing Suites</h2>
           <p>Jest</p>
           <p>QUnit</p>
         </div>
         <div className="tech-right_tools">
-          <h3>Tools and More</h3>
+          <h2>Tools and More</h2>
           <p>Github</p>
           <p>Supabase</p>
           <p>Postman</p>

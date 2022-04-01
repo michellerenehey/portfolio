@@ -2,6 +2,7 @@ import './ProjectList.css';
 import ProjectDetail from '../../components/ProjectDetail/ProjectDetail';
 import bear from '../../assets/self-care-bear.png';
 import byob from '../../assets/byob.png';
+import book from '../../assets/book.jpeg';
 
 export default function ProjectList() {
   return (
@@ -27,14 +28,11 @@ export default function ProjectList() {
         code="https://github.com/BYOBee-Project/BYOBee"
       />
       <ProjectDetail
-        src={byob}
-        name="BYOB"
-        description="A dynamically rendered single-page app, utilizing Supabase storage and CRUD functionality to encourage community-building and observation in the bee-loving community. Built with an all-remote team on a 4-day sprint."
-        list1="Spearheaded component management, utilizing Miro as a team resource to stay on track during development."
-        list2="Took lead on database design, utilizing foreign-key relationships to connect database storage."
-        tech="React, Supabase, Netlify, CSS"
-        site="https://byobee.netlify.app/"
-        code="https://github.com/BYOBee-Project/BYOBee"
+        src={book}
+        name="Backend Bookstore"
+        description="A fictional bookstore API, built from scratch using exclusively postgreSQL. The project utilized TDD, and was formed vertically with a 4-person team on a 2-day sprint."
+        tech="Express, PostgreSQL, Node"
+        code="https://github.com/michellerenehey/backend-bookstore"
       />
     </div>
   );

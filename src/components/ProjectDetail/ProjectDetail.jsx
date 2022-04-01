@@ -13,7 +13,11 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectdetail">
-      <Link to={site} target="_blank" className="projectdetail-item_image-link">
+      <Link
+        to={site || code}
+        target="_blank"
+        className="projectdetail-item_image-link"
+      >
         <img
           src={src}
           alt="project image"
@@ -24,13 +28,15 @@ export default function ProjectDetail({
       <p className="projectdetail-item_tech">{tech}</p>
       <p className="projectdetail-item_description">{description}</p>
       <ul className="projectdetail-item_list_group">
-        <li className="projectdetail-item_list">{list1}</li>
-        <li className="projectdetail-item_list">{list2}</li>
+        {list1 && <li className="projectdetail-item_list">{list1}</li>}
+        {list2 && <li className="projectdetail-item_list">{list2}</li>}
       </ul>
       <div className="projectdetail-item_links">
-        <a href={site} target="_blank" className="projectdetail-item_site">
-          LIVE SITE
-        </a>
+        {site && (
+          <a href={site} target="_blank" className="projectdetail-item_site">
+            LIVE SITE
+          </a>
+        )}
         <a href={code} target="blank" className="projectdetail-item_site">
           CODE
         </a>
