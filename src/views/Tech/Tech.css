@@ -1,8 +1,8 @@
-.tech {
+.tech-section {
   display: flex;
   justify-content: space-evenly;
-  width: 80vw;
-  background-color: var(--blue);
+  width: 70vw;
+  background-color: black;
   color: var(--white);
 }
 
@@ -11,6 +11,9 @@
 .tech-right {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+}
+
+.tech-header {
+  /* text-transform: uppercase; */
+  font-size: 1.5em;
 }
