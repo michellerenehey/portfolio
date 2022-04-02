@@ -6,15 +6,44 @@
   align-items: center;
 }
 
-.bio {
-  padding: 20px;
-  line-height: 2em;
+.about-bio_description {
+  /* padding: 20px; */
+  line-height: 1.5em;
   font-size: 1.25em;
   text-align: center;
-  margin: 10px 10px 75px 10px;
+  margin: 10px 10px 25px 10px;
+  width: 50vw;
 }
 
-.main-image {
-  height: 60vh;
-  margin: 50px 10px 10px 10px;
+.about-name {
+  font-size: 6em;
+  font-weight: 600;
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+.about-image {
+  width: 40vw;
+}
+
+.strengths {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 0px 75px 0px;
+}
+
+.strengths-item {
+  border: var(--blue) solid 1px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strengths-item_word {
+  color: var(--blue);
+  font-size: 0.75em;
 }

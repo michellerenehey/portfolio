@@ -5,24 +5,3 @@
   align-items: center;
   justify-content: space-evenly;
 }
-
-.strengths {
-  width: 80vw;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.strengths-item {
-  border: var(--orange) solid 1px;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.strengths-item_word {
-  color: var(--blue);
-  font-size: 0.75em;
-}
