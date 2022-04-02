@@ -42,7 +42,7 @@ export default function About() {
             <p className="strengths-item_word">DRIVEN</p>
           </div>
           <div className="strengths-item">
-            <p className="strengths-item_word">KIND</p>
+            <p className="strengths-item_word">SMART</p>
           </div>
         </div>
       </FadeIn>
