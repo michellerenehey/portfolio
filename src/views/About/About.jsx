@@ -18,16 +18,23 @@ export default function About() {
       </FadeIn>
       <FadeIn>
         <div className="about-bio">
-          <p className="about-bio_description">
+          <p>
             I am a hyper-focused <strong>full stack software engineer</strong>{' '}
-            who is passionate about <strong>people</strong>. I create smart
-            websites that center on <strong>user experience</strong>, utilizing{' '}
-            <strong>clean code</strong> to build <strong>human-centered</strong>{' '}
-            and <strong>empathetic</strong> tech. I am:
+            who is passionate about <strong>people</strong>. I create beautiful,
+            accessible, empathetic web experiences that center on{' '}
+            <strong>user experience</strong>, and embrace a{' '}
+            <strong>growth mindset</strong> in all I do.
+          </p>
+          <p>
+            I am an <strong>intuitive</strong> problem solver, an{' '}
+            <strong>engaging</strong> collaborator, and a{' '}
+            <strong>meticulous</strong> developer.{' '}
           </p>
         </div>
       </FadeIn>
-      <FadeIn>
+
+      {/* potential to bring in some strengths - styled with circles */}
+      {/* <FadeIn>
         <div className="strengths">
           <div className="strengths-item">
             <p className="strengths-item_word">CURIOUS</p>
@@ -45,7 +52,7 @@ export default function About() {
             <p className="strengths-item_word">SMART</p>
           </div>
         </div>
-      </FadeIn>
+      </FadeIn> */}
     </div>
   );
 }

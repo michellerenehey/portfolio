@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.about-bio_description {
+.about-bio p {
   /* padding: 20px; */
   line-height: 1.5em;
   font-size: 1.25em;
@@ -26,7 +26,7 @@
   width: 40vw;
 }
 
-.strengths {
+/* .strengths {
   width: 80vw;
   display: flex;
   justify-content: space-evenly;
@@ -46,4 +46,4 @@
 .strengths-item_word {
   color: var(--blue);
   font-size: 0.75em;
-}
+} */

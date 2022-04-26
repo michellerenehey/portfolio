@@ -4,8 +4,8 @@ import FadeIn from 'react-fade-in';
 
 export default function Tech() {
   return (
-    <div classname="Tech">
-      <img src={sparkle} />
+    <div className="Tech">
+      <img src={sparkle} alt="Gif of small sparkle" />
       <div className="tech-section">
         <FadeIn>
           <div className="tech-left">
@@ -63,6 +63,7 @@ export default function Tech() {
           </div>
         </FadeIn>
       </div>
+      <img src={sparkle} />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import './Header.css';
-import resume from '../../../assets/nygrenresume.pdf';
+import resume from '../../../assets/Nygren_Resume_4.25.2022.pdf';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
