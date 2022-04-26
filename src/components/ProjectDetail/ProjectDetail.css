@@ -4,7 +4,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border: var(--blue) 1px dashed;
+  border: var(--blue) 0.5px solid;
 }
 
 .projectdetail-item_image {
@@ -17,7 +17,7 @@
 }
 
 .projectdetail-item_image-link:hover {
-  background-color: var(--blue);
+  background-color: var(--orange);
   color: white;
   border-radius: 50% 20% / 10% 40%;
 }

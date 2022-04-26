@@ -25,11 +25,11 @@ export default function About() {
             <strong>user experience</strong>, and embrace a{' '}
             <strong>growth mindset</strong> in all I do.
           </p>
-          <p>
+          {/* <p>
             I am an <strong>intuitive</strong> problem solver, an{' '}
             <strong>engaging</strong> collaborator, and a{' '}
             <strong>meticulous</strong> developer.{' '}
-          </p>
+          </p> */}
         </div>
       </FadeIn>
 
