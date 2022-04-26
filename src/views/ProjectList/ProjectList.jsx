@@ -3,10 +3,21 @@ import ProjectDetail from '../../components/ProjectDetail/ProjectDetail';
 import bear from '../../assets/self-care-bear.png';
 import byob from '../../assets/byob.png';
 import book from '../../assets/book.jpeg';
+import geoTone from '../../assets/geo_tone.png';
 
 export default function ProjectList() {
   return (
     <div className="projectlist">
+      <ProjectDetail
+        src={geoTone}
+        name="Geo Tone"
+        description="Full-stack browser-based audio sequencer built using React, Reactronica (from Tone.js), CSS3, Framer Motion, PostgreSQL and Express. Geo Tone exists to make music fun - letting new-to-synth users experiment with customized audio effects. On the frontend, user data is hashed and encrypted; on the backend, data is managed in SQL."
+        list1="Developed and maintained user story and led 4-person team as project manager."
+        list2="Fully built out and implemented the back-end logic of the app, and spearheaded project design using CSS modules."
+        tech="React, CSS, PostgreSQL, Express, Reactronica, Tone.js, Framer Motion"
+        site="https://geo-tone.netlify.app/"
+        code="https://github.com/geo-tone"
+      />
       <ProjectDetail
         src={bear}
         name="Self Care Bear"
