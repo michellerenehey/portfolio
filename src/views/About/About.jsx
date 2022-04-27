@@ -5,7 +5,7 @@ import image2 from '../../assets/header_blue.gif';
 
 export default function About() {
   return (
-    <div className="About">
+    <div className="about">
       <FadeIn>
         <header className="about-name">MICHELLE NYGREN</header>
       </FadeIn>

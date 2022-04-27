@@ -1,7 +1,11 @@
-.Layout {
+.layout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
+
+/* Small devices (phones, <= 700px) */
+
+/* Large devices (laptops, desktops, screens > 700px) */
