@@ -64,12 +64,24 @@
 /* Large devices (laptops, desktops, screens > 700px) */
 @media only screen and (min-width: 701px) {
   .projectdetail-item_image-link:hover {
-    /* background-color: var(--orange);
-    color: white;
-    border-radius: 50% 20% / 10% 40%; */
+    /* border: 1px black solid; */
     cursor: pointer;
     transform: scale(1.1);
   }
+
+  /* potential for color-transform below */
+
+  /* .projectdetail-item_image-link img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .projectdetail-item_image-link img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+  } */
 
   .projectdetail-item_site {
     width: 20vw;
