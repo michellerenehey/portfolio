@@ -18,7 +18,7 @@ export default function Header() {
       </section>
       <section className="navLinks">
         <NavLink exact to="/" className="header-link">
-          About
+          Home
         </NavLink>
         <NavLink to="/tech" className="header-link">
           Tech Stack

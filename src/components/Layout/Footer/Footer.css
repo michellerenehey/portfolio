@@ -16,7 +16,6 @@
 }
 
 .footer-link:hover {
-  background-color: var(--orange);
-  color: white;
-  border-radius: 50% 20% / 10% 40%;
+  background-color: white;
+  color: black;
 }

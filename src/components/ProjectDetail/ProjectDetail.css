@@ -64,10 +64,11 @@
 /* Large devices (laptops, desktops, screens > 700px) */
 @media only screen and (min-width: 701px) {
   .projectdetail-item_image-link:hover {
-    background-color: var(--orange);
+    /* background-color: var(--orange);
     color: white;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 50% 20% / 10% 40%; */
     cursor: pointer;
+    transform: scale(1.1);
   }
 
   .projectdetail-item_site {

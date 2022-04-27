@@ -105,14 +105,12 @@
   }
 
   .header-link:hover {
-    background-color: var(--orange);
+    background-color: black;
     color: white;
-    border-radius: 50% 20% / 10% 40%;
   }
 
   .active {
-    background-color: var(--orange);
+    background-color: black;
     color: white;
-    border-radius: 50% 20% / 10% 40%;
   }
 }
