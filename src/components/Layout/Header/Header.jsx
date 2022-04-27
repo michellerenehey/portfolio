@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
-import resume from '../../../assets/Nygren_Resume_4.25.2022.pdf';
+import resume from '../../../assets/Nygren_Resume_4.27.2022.pdf';
 import { NavLink } from 'react-router-dom';
 import Hamburger from './Hamburger';
 
