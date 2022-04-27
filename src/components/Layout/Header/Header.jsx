@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Header.css';
 import resume from '../../../assets/Nygren_Resume_4.25.2022.pdf';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Hamburger from './Hamburger';
 
 export default function Header() {
@@ -17,18 +17,18 @@ export default function Header() {
         {menuToggle ? <Hamburger buttonClick={buttonClick} /> : null}
       </section>
       <section className="navLinks">
-        <Link to="/" className="header-link">
+        <NavLink exact to="/" className="header-link">
           About
-        </Link>
-        <Link to="/tech" className="header-link">
+        </NavLink>
+        <NavLink to="/tech" className="header-link">
           Tech Stack
-        </Link>
-        <Link to="/projects" className="header-link">
+        </NavLink>
+        <NavLink to="/projects" className="header-link">
           Projects
-        </Link>
-        <Link to={resume} target="_blank" className="header-link">
+        </NavLink>
+        <NavLink to={resume} target="_blank" className="header-link">
           Resume
-        </Link>
+        </NavLink>
       </section>
     </div>
   );
