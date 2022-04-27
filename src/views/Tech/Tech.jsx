@@ -11,14 +11,12 @@ export default function Tech() {
           <div className="tech-left">
             <div className="tech-languages">
               <h2 className="tech-header">Languages</h2>
-              <hr></hr>
               <p>JavaScript</p>
               <p>HTML5</p>
               <p>CSS3</p>
             </div>
             <div className="tech-environments">
               <h2 className="tech-header">Frameworks &amp; Libraries</h2>
-              <hr></hr>
               <p>React</p>
               <p>Node.js</p>
               <p>Express</p>
@@ -30,12 +28,10 @@ export default function Tech() {
           <div className="tech-center">
             <div className="tech-databases">
               <h2 className="tech-header">Database</h2>
-              <hr></hr>
               <p>PostgreSQL</p>
             </div>
             <div className="tech-tools">
               <h2 className="tech-header">Tools and More</h2>
-              <hr></hr>
               <p>Github</p>
               <p>Supabase</p>
               <p>Postman</p>
@@ -49,13 +45,11 @@ export default function Tech() {
           <div className="tech-right">
             <div className="tech-testing-suites">
               <h2 className="tech-header">Testing Suites</h2>
-              <hr></hr>
               <p>Jest</p>
               <p>QUnit</p>
             </div>
             <div className="tech-practices">
               <h2 className="tech-header">Dev Practices</h2>
-              <hr></hr>
               <p>Pair/Mob Programming</p>
               <p>TDD</p>
               <p>REST API</p>

@@ -64,7 +64,5 @@
 }
 
 .projectdetail-item_site:hover {
-  background-color: var(--blue);
-  color: white;
-  border-radius: 50% 20% / 10% 40%;
+  font-size: 1.75em;
 }
