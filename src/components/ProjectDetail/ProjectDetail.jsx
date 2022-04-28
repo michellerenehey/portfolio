@@ -12,31 +12,23 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectdetail">
-      <a
-        href={site || code}
-        target="_blank"
-        className="projectdetail-item_image-link"
-      >
-        <img
-          src={src}
-          alt="project image"
-          className="projectdetail-item_image"
-        />
+      <a href={site || code} target="_blank" className="projectdetail-link">
+        <img src={src} alt="project image" className="projectdetail-image" />
       </a>
-      <h2 className="projectdetail-item_name">{name}</h2>
-      <p className="projectdetail-item_tech">{tech}</p>
-      <p className="projectdetail-item_description">{description}</p>
-      <ul className="projectdetail-item_list_group">
-        {list1 && <li className="projectdetail-item_list">{list1}</li>}
-        {list2 && <li className="projectdetail-item_list">{list2}</li>}
+      <h2 className="projectdetail-name">{name}</h2>
+      <p className="projectdetail-tech">{tech}</p>
+      <p className="projectdetail-description">{description}</p>
+      <ul>
+        {list1 && <li className="projectdetail-list">{list1}</li>}
+        {list2 && <li className="projectdetail-list">{list2}</li>}
       </ul>
-      <div className="projectdetail-item_links">
+      <div className="projectdetail-links">
         {site && (
-          <a href={site} target="_blank" className="projectdetail-item_site">
+          <a href={site} target="_blank" className="projectdetail-site">
             LIVE SITE
           </a>
         )}
-        <a href={code} target="blank" className="projectdetail-item_site">
+        <a href={code} target="blank" className="projectdetail-site">
           CODE
         </a>
       </div>

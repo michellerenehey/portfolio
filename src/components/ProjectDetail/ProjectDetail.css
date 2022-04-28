@@ -6,56 +6,52 @@
   border: var(--blue) 0.5px solid;
 }
 
-.projectdetail-item_image-link {
+.projectdetail-link {
   text-align: center;
 }
 
-.projectdetail-item_name {
+.projectdetail-name {
   text-align: center;
   margin: 10px 0px 5px 0px;
 }
 
-.projectdetail-item_tech {
+.projectdetail-tech {
   margin: 0px;
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
 }
 
-.projectdetail-item_description {
+.projectdetail-description {
   line-height: 1.25em;
   margin: 20px 20px 5px 20px;
 }
 
-.projectdetail-item_list {
+.projectdetail-list {
   list-style-type: '\2728';
   line-height: 1.25em;
 }
 
-.projectdetail-item_links {
+.projectdetail-links {
   height: 5vh;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
 }
 
-.projectdetail-item_site:visited {
-  color: var(--orange);
-}
-
 /* Small devices (phones, <= 700px) */
 @media only screen and (max-width: 700px) {
-  .projectdetail-item_image-link:hover {
+  .projectdetail-link:hover {
     cursor: pointer;
   }
 
-  .projectdetail-item_site {
+  .projectdetail-site {
     text-align: center;
     font-size: 1.25em;
-    color: var(--blue);
+    color: var(--orange);
   }
 
-  .projectdetail-item_image {
+  .projectdetail-image {
     height: 12vh;
     text-align: center;
   }
@@ -63,38 +59,42 @@
 
 /* Large devices (laptops, desktops, screens > 700px) */
 @media only screen and (min-width: 701px) {
-  .projectdetail-item_image-link:hover {
-    /* border: 1px black solid; */
+  .projectdetail-link:hover {
     cursor: pointer;
     transform: scale(1.1);
   }
 
   /* potential for color-transform below */
 
-  /* .projectdetail-item_image-link img {
+  /* .projectdetail-link img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
 
-  .projectdetail-item_image-link img:hover {
+  .projectdetail-link img:hover {
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
     filter: none;
   } */
 
-  .projectdetail-item_site {
+  .projectdetail-site {
     width: 20vw;
     height: 5vh;
     text-align: center;
     font-size: 1.25em;
     color: var(--blue);
   }
-  .projectdetail-item_image {
+  .projectdetail-site:visited {
+    color: var(--orange);
+  }
+
+  .projectdetail-image {
     height: 15vh;
     text-align: center;
   }
-  .projectdetail-item_site:hover {
+
+  .projectdetail-site:hover {
     font-size: 1.75em;
   }
 }
