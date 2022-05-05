@@ -1,7 +1,6 @@
 import './About.css';
 import FadeIn from 'react-fade-in';
 import image1 from '../../assets/handshake.gif';
-import image2 from '../../assets/header_blue.gif';
 import { useState } from 'react';
 
 export default function About() {
@@ -18,7 +17,7 @@ export default function About() {
   return (
     <div className="about">
       <FadeIn>
-        <header className="about-name">
+        <header className="about-name" aria-label="michelle-nygren">
           <span
             onMouseOver={() => setMHover(true)}
             onMouseOut={() => setMHover(false)}

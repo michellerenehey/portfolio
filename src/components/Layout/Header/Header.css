@@ -110,6 +110,6 @@
   }
 
   .active {
-    border-bottom: 5px var(--blackish) solid;
+    border-bottom: 5px var(--orange) solid;
   }
 }
