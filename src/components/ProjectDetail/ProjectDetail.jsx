@@ -20,17 +20,22 @@ export default function ProjectDetail({
       <p className="projectdetail-description">{description}</p>
       <ul>
         {list1 && <li className="projectdetail-list">{list1}</li>}
+        <br />
         {list2 && <li className="projectdetail-list">{list2}</li>}
       </ul>
       <div className="projectdetail-links">
         {site && (
-          <a href={site} target="_blank" className="projectdetail-site">
-            LIVE SITE
-          </a>
+          <button>
+            <a href={site} target="_blank" className="projectdetail-site">
+              LIVE SITE
+            </a>
+          </button>
         )}
-        <a href={code} target="blank" className="projectdetail-site">
-          CODE
-        </a>
+        <button>
+          <a href={code} target="blank" className="projectdetail-site">
+            CODE
+          </a>
+        </button>
       </div>
     </div>
   );

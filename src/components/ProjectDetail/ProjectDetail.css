@@ -39,9 +39,15 @@
   align-items: flex-end;
 }
 
+.projectdetail-links button {
+  background-color: white;
+  padding: 10px;
+  border: 1px black solid;
+}
+
 /* Small devices (phones, <= 700px) */
 @media only screen and (max-width: 700px) {
-  .projectdetail-link:hover {
+  .projectdetail-links:hover {
     cursor: pointer;
   }
 
@@ -59,9 +65,8 @@
 
 /* Large devices (laptops, desktops, screens > 700px) */
 @media only screen and (min-width: 701px) {
-  .projectdetail-link:hover {
+  .projectdetail-links:hover {
     cursor: pointer;
-    transform: scale(1.1);
   }
 
   /* potential for color-transform below */
@@ -84,9 +89,7 @@
     text-align: center;
     font-size: 1.25em;
     color: var(--blue);
-  }
-  .projectdetail-site:visited {
-    color: var(--orange);
+    padding: 10px 20px 10px 20px;
   }
 
   .projectdetail-image {
@@ -94,7 +97,9 @@
     text-align: center;
   }
 
+  .projectdetail-links button:hover,
   .projectdetail-site:hover {
-    font-size: 1.75em;
+    background-color: black;
+    color: white;
   }
 }
