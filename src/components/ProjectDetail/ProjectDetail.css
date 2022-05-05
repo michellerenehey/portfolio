@@ -3,6 +3,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* border: var(--orange) 0.5px solid; */
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(212, 210, 209, 0.924);
@@ -49,6 +50,11 @@
   border: 0.5px black solid;
 }
 
+.projectdetail-gif {
+  width: 60%;
+  border-radius: 5px;
+}
+
 /* Small devices (phones, <= 700px) */
 @media only screen and (max-width: 700px) {
   .projectdetail-links:hover {
@@ -58,7 +64,7 @@
   .projectdetail-site {
     text-align: center;
     font-size: 1.25em;
-    color: var(--orange);
+    color: var(--blue);
   }
 
   .projectdetail-image {

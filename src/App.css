@@ -14,6 +14,7 @@ html {
 }
 .App {
   background-color: var(--gray);
+  /* background-color: #fce1e0; */
   color: var(--blackish);
   height: 100vh;
   display: flex;

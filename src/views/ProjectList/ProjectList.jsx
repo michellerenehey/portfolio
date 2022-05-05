@@ -5,6 +5,7 @@ import bear from '../../assets/self-care-bear.png';
 import byob from '../../assets/byob.png';
 import book from '../../assets/book.jpeg';
 import geoTone from '../../assets/geo_tone.png';
+import geoToneGif from '../../assets/geo_tone.gif';
 
 export default function ProjectList() {
   return (
@@ -19,6 +20,7 @@ export default function ProjectList() {
           tech="React, CSS, PostgreSQL, Express, Reactronica, Tone.js, Framer Motion"
           site="https://geo-tone.netlify.app/"
           code="https://github.com/geo-tone"
+          gif={geoToneGif}
         />
       </FadeIn>
       <FadeIn>

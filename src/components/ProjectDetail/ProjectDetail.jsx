@@ -9,14 +9,18 @@ export default function ProjectDetail({
   tech,
   site,
   code,
+  gif,
 }) {
   return (
     <div className="projectdetail">
       <a href={site || code} target="_blank" className="projectdetail-link">
         <img src={src} alt="project image" className="projectdetail-image" />
       </a>
-      <h2 className="projectdetail-name">{name}</h2>
+      {/* <h2 className="projectdetail-name">{name}</h2> */}
       <p className="projectdetail-tech">{tech}</p>
+      {gif && (
+        <img src={gif} alt="gif of project" className="projectdetail-gif" />
+      )}
       <p className="projectdetail-description">{description}</p>
       <ul>
         {list1 && <li className="projectdetail-list">{list1}</li>}
