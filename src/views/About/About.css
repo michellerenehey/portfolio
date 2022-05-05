@@ -37,6 +37,10 @@
     align-items: center;
   }
 
+  .about p {
+    margin: 0px;
+  }
+
   .about-name {
     font-size: 6em;
     font-weight: 600;

@@ -2,12 +2,87 @@ import './About.css';
 import FadeIn from 'react-fade-in';
 import image1 from '../../assets/handshake.gif';
 import image2 from '../../assets/header_blue.gif';
+import { useState } from 'react';
 
 export default function About() {
+  const [mHover, setMHover] = useState(false);
+  const [iHover, setIHover] = useState(false);
+  const [cHover, setCHover] = useState(false);
+  const [hHover, setHHover] = useState(false);
+  const [eHover, setEHover] = useState(false);
+  const [lHover, setLHover] = useState(false);
+  const [llHover, setLLHover] = useState(false);
+  const [eeHover, setEEHover] = useState(false);
+  const [nameHover, setNameHover] = useState(false);
+
   return (
     <div className="about">
       <FadeIn>
-        <header className="about-name">MICHELLE NYGREN</header>
+        <header className="about-name">
+          <span
+            onMouseOver={() => setMHover(true)}
+            onMouseOut={() => setMHover(false)}
+            style={mHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            M
+          </span>
+          <span
+            onMouseOver={() => setIHover(true)}
+            onMouseOut={() => setIHover(false)}
+            style={iHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            I
+          </span>
+          <span
+            onMouseOver={() => setCHover(true)}
+            onMouseOut={() => setCHover(false)}
+            style={cHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            C
+          </span>
+          <span
+            onMouseOver={() => setHHover(true)}
+            onMouseOut={() => setHHover(false)}
+            style={hHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            H
+          </span>
+          <span
+            onMouseOver={() => setEHover(true)}
+            onMouseOut={() => setEHover(false)}
+            style={eHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            E
+          </span>
+          <span
+            onMouseOver={() => setLHover(true)}
+            onMouseOut={() => setLHover(false)}
+            style={lHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            L
+          </span>
+          <span
+            onMouseOver={() => setLLHover(true)}
+            onMouseOut={() => setLLHover(false)}
+            style={llHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            L
+          </span>
+          <span
+            onMouseOver={() => setEEHover(true)}
+            onMouseOut={() => setEEHover(false)}
+            style={eeHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            E
+          </span>
+          <p
+            onMouseOver={() => setNameHover(true)}
+            onMouseOut={() => setNameHover(false)}
+            style={nameHover ? { color: '#d0826f' } : { color: 'black' }}
+          >
+            NYGREN
+          </p>
+        </header>
       </FadeIn>
       <FadeIn>
         <img
