@@ -17,7 +17,7 @@
     border: none;
     height: 1.75em;
     width: 1.75em;
-    background-color: #000;
+    background-color: var(--blackish);
     cursor: pointer;
     clip-path: polygon(
       0% 5%,
@@ -41,7 +41,7 @@
     margin: 0 0.5vw 1vw 0;
     height: 1.75em;
     width: 1.75em;
-    background-color: #000;
+    background-color: var(--blackish);
     border: none;
     clip-path: polygon(
       20% 0%,
@@ -63,9 +63,9 @@
   .hamburger ul {
     position: absolute;
     right: 10vw;
-    background-color: #fff;
+    background-color: var(--gray);
     padding: 3.5vw;
-    border: 0.5vh black solid;
+    border: 0.5vh var(--blackish) solid;
     border-radius: 100%;
     font-size: 0.75em;
     text-align: center;
@@ -101,15 +101,15 @@
   }
 
   .header-link {
-    color: var(--blue);
+    color: var(--blackish);
   }
 
   .header-link:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--blackish);
+    color: var(--gray);
   }
 
   .active {
-    border-bottom: 5px black solid;
+    border-bottom: 5px var(--blackish) solid;
   }
 }
