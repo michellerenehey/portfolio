@@ -1,10 +1,11 @@
 import './About.css';
 import Spotify from 'react-spotify-embed';
-import headshot from '../../assets/headshot.jpg';
+// import headshot from '../../assets/headshot.jpg';
 import me from '../../assets/me.gif';
 import shoe from '../../assets/running.png';
 import reading from '../../assets/open_book.png';
 import lightbulb from '../../assets/lightbulb.png';
+import grid from '../../assets/grid.png';
 
 export default function About() {
   return (
@@ -30,20 +31,20 @@ export default function About() {
       </div>
       <div className="facts-container">
         <div className="top-facts">
-          <div className="top-fact">
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
             <h3>CURRENTLY READING...</h3>
             <img src={reading} alt="Line drawing of open book" />
             <p>The King Killer Chronicles by Patrick Rothfuss</p>
           </div>
-          <div className="top-fact">
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
             <h3>CURRENTLY TRAINING FOR...</h3>
             <img src={shoe} alt="Line drawing of shoe" />
             <p>40 mile trail run around Mt. Hood!</p>
           </div>
-          <div className="top-fact">
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
             <h3>CURRENTLY LEARNING...</h3>
             <img src={lightbulb} alt="Line drawing of lightbulb" />
-            <p>Framer Motion, Embroidery</p>
+            <p>Framer Motion, City-Cycling, Embroidery</p>
           </div>
         </div>
         <div className="bottom-facts">
