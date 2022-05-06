@@ -17,7 +17,7 @@ export default function ProjectList() {
         <ProjectDetail
           src={geoTone}
           name="Geo Tone"
-          description="Full-stack browser-based audio sequencer built using React, Reactronica (from Tone.js), CSS3, Framer Motion, PostgreSQL and Express. Geo Tone was built with an all-remote team on a 9-day sprint, and exists to make music fun! On the frontend, user data is hashed and encrypted; on the backend, data is managed in SQL."
+          description="Geo Tone is a full-stack browser-based audio sequencer built using React, Reactronica (from Tone.js), CSS3, Framer Motion, PostgreSQL and Express. Geo Tone was built with an all-remote team on a 9-day sprint, and exists to make music fun! On the frontend, user data is hashed and encrypted; on the backend, data is managed in SQL."
           list1="Developed and maintained user story and led 4-person team as project manager."
           list2="Fully built out and implemented the back-end logic of the app, and spearheaded project design using CSS modules."
           tech="React, CSS, PostgreSQL, Express, Reactronica, Tone.js, Framer Motion"
@@ -30,7 +30,7 @@ export default function ProjectList() {
         <ProjectDetail
           src={bear}
           name="Self Care Bear"
-          description="A dynamically rendered CRUD app, utilizing a RESTful API to help users build and develop their ideal morning routine. Built with an all-remote team on a 4-day sprint."
+          description="Self Care Bear is a dynamically rendered CRUD app, utilizing a RESTful API to help users build and develop their ideal morning routine. Built with an all-remote team on a 4-day sprint."
           list1="Designed detailed wireframes for project layout, organizing components and mapping user flow, which served as a project management tool during development."
           list2="Substantially contributed to project collaboration with significant commits in project logic, utilizing React components and custom hooks."
           tech="React, Supabase, HTML, CSS"
@@ -43,7 +43,7 @@ export default function ProjectList() {
         <ProjectDetail
           src={byob}
           name="BYOB"
-          description="A dynamically rendered single-page app, utilizing Supabase storage and CRUD functionality to encourage community-building and observation in the bee-loving community. Built with an all-remote team on a 4-day sprint."
+          description="BYOBee is a dynamically rendered single-page app, utilizing Supabase storage and CRUD functionality to encourage community-building and observation in the bee-loving community. Built with an all-remote team on a 4-day sprint."
           list1="Spearheaded component management, utilizing Miro as a team resource to stay on track during development."
           list2="Took lead on database design, utilizing foreign-key relationships to connect database storage."
           tech="React, Supabase, Netlify, CSS"
@@ -56,7 +56,7 @@ export default function ProjectList() {
         <ProjectDetail
           src={book}
           name="Backend Bookstore"
-          description="A fictional bookstore API, built from scratch using exclusively postgreSQL. The project utilized TDD, and was formed vertically with a 4-person team on a 2-day sprint."
+          description="The Backend Bookstore is a fictional bookstore API, built from scratch using exclusively postgreSQL. The project utilized TDD, and was formed vertically with a 4-person team on a 2-day sprint."
           tech="Express, PostgreSQL, Node"
           code="https://github.com/michellerenehey/backend-bookstore"
           gif={bookGif}
