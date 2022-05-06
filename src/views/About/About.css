@@ -19,6 +19,12 @@
 
 .about-bio {
   width: 60vw;
+  padding: 10px;
+}
+
+.about p:first-child,
+.about p:last-child {
+  text-align: center;
 }
 
 .facts-container {
