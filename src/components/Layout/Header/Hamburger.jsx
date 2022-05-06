@@ -14,6 +14,11 @@ export default function Hamburger({ buttonClick }) {
           </Link>
         </li>
         <li>
+          <Link onClick={buttonClick} to="/about">
+            About
+          </Link>
+        </li>
+        <li>
           <Link onClick={buttonClick} to="/tech">
             Tech Stack
           </Link>

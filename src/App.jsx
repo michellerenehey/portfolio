@@ -4,6 +4,7 @@ import Layout from './components/Layout/Layout';
 import Home from './views/Home/Home';
 import Tech from './views/Tech/Tech';
 import ProjectList from './views/ProjectList/ProjectList';
+import About from './views/About/About';
 
 export default function App() {
   return (
@@ -13,6 +14,9 @@ export default function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/about">
+              <About />
             </Route>
             <Route exact path="/tech">
               <Tech />

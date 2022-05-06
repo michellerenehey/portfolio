@@ -20,6 +20,9 @@ export default function Header() {
         <NavLink exact to="/" className="header-link">
           Home
         </NavLink>
+        <NavLink to="/about" className="header-link">
+          About
+        </NavLink>
         <NavLink to="/tech" className="header-link">
           Tech Stack
         </NavLink>
