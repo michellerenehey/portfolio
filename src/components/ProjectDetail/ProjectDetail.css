@@ -13,7 +13,7 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 1px 5px var(--orange);
-  width: 80%;
+  width: 60%;
   font-weight: 400;
 }
 
@@ -82,10 +82,6 @@
 
 /* Large devices (laptops, desktops, screens > 700px) */
 @media only screen and (min-width: 701px) {
-  .sparkle {
-    font-size: 50px;
-  }
-
   .projectdetail-links:hover {
     cursor: pointer;
   }
