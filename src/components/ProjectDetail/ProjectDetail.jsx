@@ -1,5 +1,5 @@
 import './ProjectDetail.css';
-// import sparkle from '../../assets/sparkle.gif';
+import grid from '../../assets/grid.png';
 
 export default function ProjectDetail({
   src,
@@ -14,11 +14,13 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectcontainer">
-      <div className="projectdetail">
+      <div
+        className="projectdetail"
+        style={{ backgroundImage: `url(${grid})` }}
+      >
         <a href={site || code} target="_blank" className="projectdetail-link">
           <img src={src} alt="project image" className="projectdetail-image" />
         </a>
-        {/* <h2 className="projectdetail-name">{name}</h2> */}
         <p className="projectdetail-tech">{tech}</p>
         {gif && (
           <img src={gif} alt="gif of project" className="projectdetail-gif" />

@@ -1,11 +1,12 @@
 import './ProjectList.css';
 import FadeIn from 'react-fade-in';
 import ProjectDetail from '../../components/ProjectDetail/ProjectDetail';
-import bear from '../../assets/self-care-bear.png';
+import bear from '../../assets/self_care_bear.png';
 import byob from '../../assets/byob.png';
 import book from '../../assets/book.jpeg';
 import geoTone from '../../assets/geo_tone.png';
 import geoToneGif from '../../assets/geo_tone.gif';
+import selfCareGif from '../../assets/self_care_bear.gif';
 
 export default function ProjectList() {
   return (
@@ -33,6 +34,7 @@ export default function ProjectList() {
           tech="React, Supabase, HTML, CSS"
           site="https://self-care-bears.netlify.app/"
           code="https://github.com/self-care-bear/self-care-bear"
+          gif={selfCareGif}
         />
       </FadeIn>
       <FadeIn>
