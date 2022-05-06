@@ -106,27 +106,6 @@ export default function Home() {
           </p> */}
         </div>
       </FadeIn>
-
-      {/* potential to bring in some strengths - styled with circles */}
-      {/* <FadeIn>
-        <div className="strengths">
-          <div className="strengths-item">
-            <p className="strengths-item_word">CURIOUS</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">EMPATHETIC</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">ADAPTABLE</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">DRIVEN</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">SMART</p>
-          </div>
-        </div>
-      </FadeIn> */}
     </div>
   );
 }

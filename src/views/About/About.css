@@ -20,6 +20,7 @@
 .about-bio {
   width: 60vw;
   padding: 10px;
+  line-height: 25px;
 }
 
 .about p:first-child,
