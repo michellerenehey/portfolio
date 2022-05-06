@@ -1,5 +1,5 @@
 import './ProjectDetail.css';
-import sparkle from '../../assets/sparkle.gif';
+// import sparkle from '../../assets/sparkle.gif';
 
 export default function ProjectDetail({
   src,
@@ -14,7 +14,6 @@ export default function ProjectDetail({
 }) {
   return (
     <div className="projectcontainer">
-      <img src={sparkle} className="sparkle" />
       <div className="projectdetail">
         <a href={site || code} target="_blank" className="projectdetail-link">
           <img src={src} alt="project image" className="projectdetail-image" />
@@ -45,7 +44,6 @@ export default function ProjectDetail({
           </button>
         </div>
       </div>
-      <img src={sparkle} className="sparkle" />
     </div>
   );
 }
