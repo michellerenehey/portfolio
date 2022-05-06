@@ -13,8 +13,6 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 1px 5px var(--orange);
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-  /* background-color: #fce1e09e; */
   width: 80%;
   font-weight: 400;
 }
@@ -96,20 +94,6 @@
     cursor: pointer;
   }
 
-  /* potential for color-transform below */
-
-  /* .projectdetail-link img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-  }
-
-  .projectdetail-link img:hover {
-    filter: grayscale(0%);
-    filter: gray;
-    -webkit-filter: grayscale(0%);
-    filter: none;
-  } */
-
   .projectdetail-site {
     width: 20vw;
     height: 5vh;
@@ -130,3 +114,17 @@
     color: white;
   }
 }
+
+/* potential for color-transform below */
+
+/* .projectdetail-link img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .projectdetail-link img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+  } */
