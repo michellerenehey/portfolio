@@ -7,6 +7,8 @@ import book from '../../assets/book.jpeg';
 import geoTone from '../../assets/geo_tone.png';
 import geoToneGif from '../../assets/geo_tone.gif';
 import selfCareGif from '../../assets/self_care_bear.gif';
+import byobGif from '../../assets/byob.gif';
+import bookGif from '../../assets/book.gif';
 
 export default function ProjectList() {
   return (
@@ -47,6 +49,7 @@ export default function ProjectList() {
           tech="React, Supabase, Netlify, CSS"
           site="https://byobee.netlify.app/"
           code="https://github.com/BYOBee-Project/BYOBee"
+          gif={byobGif}
         />
       </FadeIn>
       <FadeIn>
@@ -56,6 +59,7 @@ export default function ProjectList() {
           description="A fictional bookstore API, built from scratch using exclusively postgreSQL. The project utilized TDD, and was formed vertically with a 4-person team on a 2-day sprint."
           tech="Express, PostgreSQL, Node"
           code="https://github.com/michellerenehey/backend-bookstore"
+          gif={bookGif}
         />
       </FadeIn>
     </div>

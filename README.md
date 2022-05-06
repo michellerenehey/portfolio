@@ -1,21 +1,9 @@
-# portfolio
+# sources
 
-# Header
+### icons
 
-- Link to home
-- Link to about
-- Link to tech stack
-- Link to projects
-- Link to contact
-- Link to resume?
+- flaticon
 
-# Body
+### images
 
-- each of the above it's own component
-- link to resume?
-
-# Footer
-
-- github
-- email
-- linkedin
+- bee image: Aaron Burden from [Unsplash](https://unsplash.com/photos/2xhOYKK-jAM)
