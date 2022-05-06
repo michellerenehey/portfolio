@@ -1,9 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
-import About from './views/About/About';
+import Home from './views/Home/Home';
 import Tech from './views/Tech/Tech';
 import ProjectList from './views/ProjectList/ProjectList';
+import About from './views/About/About';
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
         <Layout>
           <Switch>
             <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
               <About />
             </Route>
             <Route exact path="/tech">

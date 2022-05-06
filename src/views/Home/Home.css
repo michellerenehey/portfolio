@@ -1,0 +1,85 @@
+/* Small devices (phones, <= 700px) */
+@media only screen and (max-width: 700px) {
+  .home {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .home-name {
+    font-size: 2em;
+    font-weight: 600;
+    /* margin: 100px 0px 0px 0px; */
+    text-align: center;
+  }
+
+  .home-image {
+    width: 70vw;
+  }
+
+  .home-bio p {
+    line-height: 1.5em;
+    text-align: center;
+    margin: 10px 10px 25px 10px;
+    width: 70vw;
+  }
+}
+
+/* Large devices (laptops, desktops, screens > 700px) */
+@media only screen and (min-width: 701px) {
+  .home {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home p {
+    margin: 0px;
+  }
+
+  .home-name {
+    font-size: 6em;
+    font-weight: 600;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .home-image {
+    width: 40vw;
+  }
+
+  .home-bio p {
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 10px 10px 25px 10px;
+    width: 60vw;
+  }
+}
+
+/* .strengths {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 0px 75px 0px;
+}
+
+.strengths-item {
+  border: var(--blue) solid 1px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strengths-item_word {
+  color: var(--blue);
+  font-size: 0.75em;
+} */

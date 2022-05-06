@@ -1,132 +1,62 @@
 import './About.css';
-import FadeIn from 'react-fade-in';
-import image1 from '../../assets/handshake.gif';
-import { useState } from 'react';
+import Spotify from 'react-spotify-embed';
+// import headshot from '../../assets/headshot.jpg';
+import me from '../../assets/me.gif';
+import shoe from '../../assets/running.png';
+import reading from '../../assets/open_book.png';
+import lightbulb from '../../assets/lightbulb.png';
+import grid from '../../assets/grid.png';
 
 export default function About() {
-  const [mHover, setMHover] = useState(false);
-  const [iHover, setIHover] = useState(false);
-  const [cHover, setCHover] = useState(false);
-  const [hHover, setHHover] = useState(false);
-  const [eHover, setEHover] = useState(false);
-  const [lHover, setLHover] = useState(false);
-  const [llHover, setLLHover] = useState(false);
-  const [eeHover, setEEHover] = useState(false);
-  const [nameHover, setNameHover] = useState(false);
-
   return (
     <div className="about">
-      <FadeIn>
-        <header className="about-name" aria-label="michelle-nygren">
-          <span
-            onMouseOver={() => setMHover(true)}
-            onMouseOut={() => setMHover(false)}
-            style={mHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            M
-          </span>
-          <span
-            onMouseOver={() => setIHover(true)}
-            onMouseOut={() => setIHover(false)}
-            style={iHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            I
-          </span>
-          <span
-            onMouseOver={() => setCHover(true)}
-            onMouseOut={() => setCHover(false)}
-            style={cHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            C
-          </span>
-          <span
-            onMouseOver={() => setHHover(true)}
-            onMouseOut={() => setHHover(false)}
-            style={hHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            H
-          </span>
-          <span
-            onMouseOver={() => setEHover(true)}
-            onMouseOut={() => setEHover(false)}
-            style={eHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            E
-          </span>
-          <span
-            onMouseOver={() => setLHover(true)}
-            onMouseOut={() => setLHover(false)}
-            style={lHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            L
-          </span>
-          <span
-            onMouseOver={() => setLLHover(true)}
-            onMouseOut={() => setLLHover(false)}
-            style={llHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            L
-          </span>
-          <span
-            onMouseOver={() => setEEHover(true)}
-            onMouseOut={() => setEEHover(false)}
-            style={eeHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            E
-          </span>
-          <p
-            onMouseOver={() => setNameHover(true)}
-            onMouseOut={() => setNameHover(false)}
-            style={nameHover ? { color: '#d0826f' } : { color: 'black' }}
-          >
-            NYGREN
-          </p>
-        </header>
-      </FadeIn>
-      <FadeIn>
-        <img
-          src={image1}
-          alt="A drawn image of two women shaking hands"
-          className="about-image"
-        />
-      </FadeIn>
-      <FadeIn>
-        <div className="about-bio">
-          <p>
-            I am a hyper-focused <strong>full stack software engineer</strong>{' '}
-            who is passionate about <strong>people</strong>. I create beautiful,
-            accessible, empathetic web experiences that center on{' '}
-            <strong>user experience</strong>, and embrace a{' '}
-            <strong>growth mindset</strong> in all I do.
-          </p>
-          {/* <p>
-            I am an <strong>intuitive</strong> problem solver, an{' '}
-            <strong>engaging</strong> collaborator, and a{' '}
-            <strong>meticulous</strong> developer.{' '}
-          </p> */}
-        </div>
-      </FadeIn>
-
-      {/* potential to bring in some strengths - styled with circles */}
-      {/* <FadeIn>
-        <div className="strengths">
-          <div className="strengths-item">
-            <p className="strengths-item_word">CURIOUS</p>
+      <img
+        src={me}
+        alt="Gif of Michelle dipping feet in water"
+        className="about-pic"
+      />
+      <div className="about-bio">
+        <p>Hi!</p>
+        <p>
+          Thanks for visiting my little corner of the internet. I'm a software
+          engineer in the Pacific Northwest. Before building things on the
+          internet, I was a digital marketer and a pastry chef. I’ve always
+          loved making things and solving problems, and have always done so with
+          people as my motivation.
+        </p>
+        <p>
+          I decided to learn software development because I believed I could use
+          technology to solve bigger, more human-centered problems.
+        </p>
+        <p>It's nice to see you!</p>
+      </div>
+      <div className="facts-container">
+        <div className="top-facts">
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
+            <h3>CURRENTLY READING...</h3>
+            <img src={reading} alt="Line drawing of open book" />
+            <p>The King Killer Chronicles by Patrick Rothfuss</p>
           </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">EMPATHETIC</p>
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
+            <h3>CURRENTLY TRAINING FOR...</h3>
+            <img src={shoe} alt="Line drawing of shoe" />
+            <p>40 mile trail run around Mt. Hood!</p>
           </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">ADAPTABLE</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">DRIVEN</p>
-          </div>
-          <div className="strengths-item">
-            <p className="strengths-item_word">SMART</p>
+          <div className="top-fact" style={{ backgroundImage: `url(${grid})` }}>
+            <h3>CURRENTLY LEARNING...</h3>
+            <img src={lightbulb} alt="Line drawing of lightbulb" />
+            <p>Framer Motion, City-Cycling, Embroidery</p>
           </div>
         </div>
-      </FadeIn> */}
+        <div className="bottom-facts">
+          <div className="bottom-fact">
+            <h3>CURRENTLY LISTENING TO...</h3>
+            <div className="spotify">
+              <Spotify link="https://open.spotify.com/playlist/4sxXL9VpKH3oXB9Ll7YuPx?si=21915288d1454246" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
