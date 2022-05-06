@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
-import About from './views/About/About';
+import Home from './views/Home/Home';
 import Tech from './views/Tech/Tech';
 import ProjectList from './views/ProjectList/ProjectList';
 
@@ -12,7 +12,7 @@ export default function App() {
         <Layout>
           <Switch>
             <Route exact path="/">
-              <About />
+              <Home />
             </Route>
             <Route exact path="/tech">
               <Tech />

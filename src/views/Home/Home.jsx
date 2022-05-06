@@ -1,9 +1,9 @@
-import './About.css';
+import './Home.css';
 import FadeIn from 'react-fade-in';
 import image1 from '../../assets/handshake.gif';
 import { useState } from 'react';
 
-export default function About() {
+export default function Home() {
   const [mHover, setMHover] = useState(false);
   const [iHover, setIHover] = useState(false);
   const [cHover, setCHover] = useState(false);
@@ -15,9 +15,9 @@ export default function About() {
   const [nameHover, setNameHover] = useState(false);
 
   return (
-    <div className="about">
+    <div className="home">
       <FadeIn>
-        <header className="about-name" aria-label="michelle-nygren">
+        <header className="home-name" aria-label="michelle-nygren">
           <span
             onMouseOver={() => setMHover(true)}
             onMouseOut={() => setMHover(false)}
@@ -87,11 +87,11 @@ export default function About() {
         <img
           src={image1}
           alt="A drawn image of two women shaking hands"
-          className="about-image"
+          className="home-image"
         />
       </FadeIn>
       <FadeIn>
-        <div className="about-bio">
+        <div className="home-bio">
           <p>
             I am a hyper-focused <strong>full stack software engineer</strong>{' '}
             who is passionate about <strong>people</strong>. I create beautiful,
