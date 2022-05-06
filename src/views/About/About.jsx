@@ -19,8 +19,8 @@ export default function About() {
         <p>Hi!</p>
         <p>
           Thanks for visiting my little corner of the internet. I'm a software
-          engineer in the Pacific Northwest. Before building things on the
-          internet, I was a digital marketer and a pastry chef. I’ve always
+          engineer in the Pacific Northwest. Before building things on
+          computers, I was a digital marketer and a pastry chef. I’ve always
           loved making things and solving problems, and have always done so with
           people as my motivation.
         </p>
@@ -50,7 +50,7 @@ export default function About() {
         </div>
         <div className="bottom-facts">
           <div className="bottom-fact">
-            <h3>CURRENTLY LISTENING TO...</h3>
+            <h3>CURRENTLY CODING TO...</h3>
             <div className="spotify">
               <Spotify link="https://open.spotify.com/playlist/4sxXL9VpKH3oXB9Ll7YuPx?si=21915288d1454246" />
             </div>
