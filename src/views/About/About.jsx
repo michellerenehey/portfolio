@@ -25,7 +25,7 @@ export default function About() {
             engineer in the Pacific Northwest. Before building things on
             computers, I was a digital marketer and a pastry chef. I’ve always
             loved making things and solving problems, and have always done so
-            with people as my motivation.
+            with 〰️ people 〰️ as my motivation.
           </p>
           <p>
             I decided to learn software development because I believed I could
