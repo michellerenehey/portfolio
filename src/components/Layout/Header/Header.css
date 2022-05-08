@@ -62,18 +62,34 @@
 
   .hamburger ul {
     position: absolute;
-    right: 10vw;
+    right: 0;
     background-color: var(--gray);
     padding: 3.5vw;
-    border: 0.5vh var(--blackish) solid;
-    border-radius: 70%/60%;
+    border: 0.5vh var(--orange) solid;
+    border-radius: 5px;
+    /* border-radius: 70%/60%; */
     font-size: 0.75em;
     text-align: center;
+    height: 70vw;
+    background-color: var(--pink);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .hamburger li {
     list-style: none;
     padding: 1vw;
+    background-color: black;
+    margin: 2px;
+  }
+
+  .hamburger a:visited {
+    color: white;
   }
 
   .navLinks {
