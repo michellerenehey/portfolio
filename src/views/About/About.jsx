@@ -12,12 +12,12 @@ export default function About() {
     <div className="about">
       <FadeIn>
         <div className="about-bio">
-          <h1>Hello!</h1>
           <img
             src={me}
             alt="Gif of Michelle dipping feet in water"
             className="about-pic"
           />
+          <h3>Hi!</h3>
           <p>
             Thanks for visiting my little corner of the internet. I'm a software
             engineer in the Pacific Northwest. Before building things on
