@@ -11,27 +11,28 @@ export default function About() {
   return (
     <div className="about">
       <FadeIn>
-        <img
-          src={me}
-          alt="Gif of Michelle dipping feet in water"
-          className="about-pic"
-        />
-      </FadeIn>
-      <FadeIn>
         <div className="about-bio">
-          <p>Hi!</p>
+          <h1>Hello!</h1>
+          <img
+            src={me}
+            alt="Gif of Michelle dipping feet in water"
+            className="about-pic"
+          />
           <p>
             Thanks for visiting my little corner of the internet. I'm a software
             engineer in the Pacific Northwest. Before building things on
             computers, I was a digital marketer and a pastry chef. I’ve always
-            loved making things and solving problems, and have always done so
+            loved creating things and solving problems, and have always done so
             with 〰️ people 〰️ as my motivation.
           </p>
           <p>
             I decided to learn software development because I believed I could
-            use technology to solve bigger, more human-centered problems.
+            use technology to solve bigger, more human-centered problems. Bonus:
+            it's really fun! I love building things here, and think we can build
+            some really beautiful, impactful, accessible, powerful things
+            together. So, let's!
           </p>
-          <p>It's nice to see you!</p>
+          <h3>&#x270C; It's nice to see you! &#x270C;</h3>
         </div>
       </FadeIn>
       <FadeIn>

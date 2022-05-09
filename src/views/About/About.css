@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@100&family=Megrim&family=Poiret+One&family=Train+One&display=swap');
+
 /* Small devices (phones, <= 700px) */
 @media only screen and (max-width: 700px) {
   .about {
@@ -86,7 +88,6 @@
 @media only screen and (min-width: 701px) {
   .about {
     box-sizing: border-box;
-    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -103,9 +104,27 @@
   }
 
   .about-bio {
-    width: 60vw;
+    width: 75vw;
     padding: 10px;
     line-height: 25px;
+    background-color: #ffe6e6;
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px cornsilk;
+    text-align: center;
+  }
+
+  .about-bio h1 {
+    font-size: 100px;
+    /* color: var(--gray); */
+  }
+  .about-bio h1,
+  .about-bio h3 {
+    /* font-family: 'Big Shoulders Inline Display', cursive; */
+    /* font-family: 'Megrim', cursive; */
+    font-family: 'Poiret One', cursive;
+    /* font-family: 'Train One', cursive; */
   }
 
   .about p:first-child,

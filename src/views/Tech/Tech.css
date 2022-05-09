@@ -54,5 +54,6 @@
 
 .tech-header {
   font-size: 1.5em;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--gray);
+  color: var(--gray);
 }
