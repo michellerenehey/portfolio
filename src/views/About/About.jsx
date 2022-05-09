@@ -17,7 +17,7 @@ export default function About() {
             alt="Gif of Michelle dipping feet in water"
             className="about-pic"
           />
-          <h3>Hi!</h3>
+          <h3>Hello!</h3>
           <p>
             Thanks for visiting my little corner of the internet. I'm a software
             engineer in the Pacific Northwest. Before building things on
