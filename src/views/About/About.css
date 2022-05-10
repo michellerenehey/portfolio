@@ -4,7 +4,7 @@
 @media only screen and (max-width: 700px) {
   .about {
     box-sizing: border-box;
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +19,20 @@
   }
 
   .about-bio {
-    width: 80vw;
+    width: 75vw;
     padding: 0 0 10px 0;
+    text-align: center;
+    box-shadow: 0 1px 5px 5px cornsilk;
+    padding: 15px 10px 5px 10px;
+    margin: 10px 10px 40px 10px;
+    line-height: 25px;
+  }
+
+  .about-bio h3 {
+    /* font-family: 'Big Shoulders Inline Display', cursive; */
+    /* font-family: 'Megrim', cursive; */
+    font-family: 'Poiret One', cursive;
+    /* font-family: 'Train One', cursive; */
   }
 
   .about p:first-child,
@@ -115,11 +127,6 @@
     text-align: center;
   }
 
-  .about-bio h1 {
-    font-size: 100px;
-    /* color: var(--gray); */
-  }
-  .about-bio h1,
   .about-bio h3 {
     /* font-family: 'Big Shoulders Inline Display', cursive; */
     /* font-family: 'Megrim', cursive; */
