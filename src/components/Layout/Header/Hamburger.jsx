@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-import resume from '../../../assets/Nygren_Resume_4.27.2022.pdf';
+import resume from '../../../assets/Nygren_Resume.pdf';
 
 import React from 'react';
 

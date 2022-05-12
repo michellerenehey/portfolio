@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 import Hamburger from './Hamburger';
-import resume from '../../../assets/Nygren_Resume_4.27.2022.pdf';
+import resume from '../../../assets/Nygren_Resume.pdf';
 import whiteHome from '../../../assets/home_white.png';
 import blackHome from '../../../assets/home_black.png';
 
