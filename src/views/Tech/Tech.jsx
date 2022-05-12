@@ -1,6 +1,6 @@
 import './Tech.css';
-import sparkle from '../../assets/sparkle.gif';
 import FadeIn from 'react-fade-in';
+import sparkle from '../../assets/sparkle.gif';
 
 export default function Tech() {
   return (

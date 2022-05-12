@@ -1,7 +1,7 @@
-import './Home.css';
-import FadeIn from 'react-fade-in';
-import image1 from '../../assets/handshake.gif';
 import { useState } from 'react';
+import FadeIn from 'react-fade-in';
+import './Home.css';
+import image1 from '../../assets/handshake.gif';
 
 export default function Home() {
   const [mHover, setMHover] = useState(false);
@@ -21,63 +21,63 @@ export default function Home() {
           <span
             onMouseOver={() => setMHover(true)}
             onMouseOut={() => setMHover(false)}
-            style={mHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={mHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             M
           </span>
           <span
             onMouseOver={() => setIHover(true)}
             onMouseOut={() => setIHover(false)}
-            style={iHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={iHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             I
           </span>
           <span
             onMouseOver={() => setCHover(true)}
             onMouseOut={() => setCHover(false)}
-            style={cHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={cHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             C
           </span>
           <span
             onMouseOver={() => setHHover(true)}
             onMouseOut={() => setHHover(false)}
-            style={hHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={hHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             H
           </span>
           <span
             onMouseOver={() => setEHover(true)}
             onMouseOut={() => setEHover(false)}
-            style={eHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={eHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             E
           </span>
           <span
             onMouseOver={() => setLHover(true)}
             onMouseOut={() => setLHover(false)}
-            style={lHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={lHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             L
           </span>
           <span
             onMouseOver={() => setLLHover(true)}
             onMouseOut={() => setLLHover(false)}
-            style={llHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={llHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             L
           </span>
           <span
             onMouseOver={() => setEEHover(true)}
             onMouseOut={() => setEEHover(false)}
-            style={eeHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={eeHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             E
           </span>
           <p
             onMouseOver={() => setNameHover(true)}
             onMouseOut={() => setNameHover(false)}
-            style={nameHover ? { color: '#d0826f' } : { color: 'black' }}
+            style={nameHover ? { color: '#d0826f' } : { color: '#111010' }}
           >
             NYGREN
           </p>
@@ -99,11 +99,6 @@ export default function Home() {
             <strong>user experience</strong>, and embrace a{' '}
             <strong>growth mindset</strong> in all I do.
           </p>
-          {/* <p>
-            I am an <strong>intuitive</strong> problem solver, an{' '}
-            <strong>engaging</strong> collaborator, and a{' '}
-            <strong>meticulous</strong> developer.{' '}
-          </p> */}
         </div>
       </FadeIn>
     </div>

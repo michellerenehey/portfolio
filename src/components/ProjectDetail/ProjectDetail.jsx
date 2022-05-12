@@ -3,7 +3,6 @@ import grid from '../../assets/grid.png';
 
 export default function ProjectDetail({
   src,
-  name,
   description,
   list1,
   list2,

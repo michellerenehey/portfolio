@@ -11,7 +11,6 @@
   .home-name {
     font-size: 2em;
     font-weight: 600;
-    /* margin: 100px 0px 0px 0px; */
     text-align: center;
   }
 
@@ -61,25 +60,3 @@
     width: 60vw;
   }
 }
-
-/* .strengths {
-  width: 80vw;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0px 0px 75px 0px;
-}
-
-.strengths-item {
-  border: var(--blue) solid 1px;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.strengths-item_word {
-  color: var(--blue);
-  font-size: 0.75em;
-} */

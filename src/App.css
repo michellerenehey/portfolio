@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 /* font-family: 'Montserrat', sans-serif; */
+
 * {
   --orange: #d0826f;
   --blue: #263547;
@@ -13,9 +14,9 @@ body,
 html {
   margin: 0;
 }
+
 .App {
   background-color: var(--gray);
-  /* background-color: #fce1e0; */
   color: var(--blackish);
   height: 100vh;
   display: flex;
