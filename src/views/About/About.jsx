@@ -44,7 +44,7 @@ export default function About() {
             >
               <h3>CURRENTLY READING...</h3>
               <img src={reading} alt="Line drawing of open book" />
-              <p>The King Killer Chronicles by Patrick Rothfuss</p>
+              <p>Court of Thorns and Roses (series by Sarah J. Maas)</p>
             </div>
             <div
               className="top-fact"
@@ -60,14 +60,14 @@ export default function About() {
             >
               <h3>CURRENTLY LEARNING...</h3>
               <img src={lightbulb} alt="Line drawing of lightbulb" />
-              <p>Framer Motion, City-Cycling, Embroidery</p>
+              <p>PHP, Framer Motion, Sewing, Embroidery</p>
             </div>
           </div>
           <div className="bottom-facts">
             <div className="bottom-fact">
               <h3>CURRENTLY CODING TO...</h3>
               <div className="spotify">
-                <Spotify link="https://open.spotify.com/playlist/4sxXL9VpKH3oXB9Ll7YuPx?si=21915288d1454246" />
+                <Spotify link="https://open.spotify.com/album/5EEJTevDqbOU2iGfq26d0f?si=8_ndhycIQCKoxaoWtpRDoA" />
               </div>
             </div>
           </div>
