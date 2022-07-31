@@ -52,7 +52,10 @@ export default function About() {
             >
               <h3>CURRENTLY TRAINING FOR...</h3>
               <img src={shoe} alt="Line drawing of shoe" />
-              <p>40 mile trail run around Mt. Hood!</p>
+              <p>
+                Portland Half Marathon (and a 40 mile trail run around Mt.
+                Hood!)
+              </p>
             </div>
             <div
               className="top-fact"
@@ -60,7 +63,7 @@ export default function About() {
             >
               <h3>CURRENTLY LEARNING...</h3>
               <img src={lightbulb} alt="Line drawing of lightbulb" />
-              <p>PHP, Framer Motion, Sewing, Embroidery</p>
+              <p>AWS, Emotion, PHP, Firebase, Embroidery</p>
             </div>
           </div>
           <div className="bottom-facts">
