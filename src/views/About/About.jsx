@@ -44,7 +44,7 @@ export default function About() {
             >
               <h3>CURRENTLY READING...</h3>
               <img src={reading} alt="Line drawing of open book" />
-              <p>Court of Thorns and Roses (series by Sarah J. Maas)</p>
+              <p>Four Thousand Weeks: Time Management for Mortals</p>
             </div>
             <div
               className="top-fact"
@@ -52,10 +52,7 @@ export default function About() {
             >
               <h3>CURRENTLY TRAINING FOR...</h3>
               <img src={shoe} alt="Line drawing of shoe" />
-              <p>
-                Portland Half Marathon (and a 40 mile trail run around Mt.
-                Hood!)
-              </p>
+              <p>Taking a break from training!</p>
             </div>
             <div
               className="top-fact"
@@ -63,7 +60,7 @@ export default function About() {
             >
               <h3>CURRENTLY LEARNING...</h3>
               <img src={lightbulb} alt="Line drawing of lightbulb" />
-              <p>AWS, Emotion, PHP, Firebase, Embroidery</p>
+              <p>Emotion.JS and Knitting</p>
             </div>
           </div>
           <div className="bottom-facts">
