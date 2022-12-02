@@ -53,6 +53,8 @@ export default function Tech() {
               <p>Pair/Mob Programming</p>
               <p>TDD</p>
               <p>REST API</p>
+              <p>Code Reviews</p>
+              <p>CI/CD &amp; Jenkins</p>
             </div>
           </div>
         </FadeIn>
