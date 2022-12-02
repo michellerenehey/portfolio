@@ -9,11 +9,23 @@ import geoToneGif from '../../assets/geo_tone.gif';
 import selfCareGif from '../../assets/self_care_bear.gif';
 import byobGif from '../../assets/byob.gif';
 import bookGif from '../../assets/book.gif';
+import shopAde from '../../assets/shop_ade.png';
 
 export default function ProjectList() {
   return (
     <div className="projectlist">
       <FadeIn>
+        <ProjectDetail
+          src={shopAde}
+          name="Shop-Ade"
+          description="Shop-Ade is a responsive and smart shopping list built to help streamline purcasing behavior. The app uses local storage tokens with real-time data stored in Firebase to learn a user's buying habits over time."
+          list1="Led team in styling the application and implementing Figma designs."
+          list2="Evaluated project needs and utilized code reviews and Github Actions to communicate asynchonously with teammates."
+          tech="React, CSS, Firebase"
+          site="https:/tcl-45-smart-shopping-list.firebaseapp.com"
+          code="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
+          // gif={shopAdeGif}
+        />
         <ProjectDetail
           src={geoTone}
           name="Geo Tone"
